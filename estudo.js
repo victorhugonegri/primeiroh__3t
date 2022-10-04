@@ -1,8 +1,8 @@
 alert("Oi, eu sou um alerta")
         console.log("https://www.youtube.com/watch?v=N9777WExvCc");
         document.write("Aula de Pens. Comp.");
-         let tabuada =2;
-         let nome = " Victor";
+         var tabuada =2;
+         
 
         function meChame(){
              document.write("<h1>Tabuada do " + Tabuada +  "</h1>");
@@ -19,10 +19,15 @@ alert("Oi, eu sou um alerta")
              document.write("Feita por" + nome);
             }
          //for(inicio; validaçao, manutencao)
-            function tabuada(){
-                for(var i=0; <20; i++){
-                        Document,write("O valor do 1 = " i++)
-                        document.write("0 valor de 1 = " + "<br>")
+            function escreva(){
+                for(var i=0; i < 20; i++){
+                        document.write(tabuada+" x " + i + " = "+(tabuada*i)+"<br>")
                 }
+                        function escreva(){
+                                for(var i = 1; i < 10; i++){
+                                        document.write(tabuada+" x " + i + " = "+(tabuada*i)+"<br>")
+                                }
+                        }
+
                 
-            }
+            
