@@ -35,8 +35,13 @@ function quadrado(){
 }
 
 function total(){
-    let val = document.getElementById("valor").value;
-    let ju = document.getElementById("juros").value;
+    
     let resultado = (val * ((ju/100)+1));
+    let valor = document.getElementById("val").value;
+    let mes = document.getElementById("mes").value;
+    for(let i = 1; i <=mes; i++){
+        resultado += valor * (1+(juros/100));
+    }
     document.write("O total é de: " + resultado);
+    let juros = document.getElementById("ju").value;
 }
