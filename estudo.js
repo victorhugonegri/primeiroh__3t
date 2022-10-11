@@ -67,7 +67,7 @@ function falta(){
     let n1 = document.getElementById("n1").value;
     let n2 = document.getElementById("n1").value;
     let n3 = document.getElementById("n1").value;
-    let r = Number(n1) + Number(n2) + Number(n3);
+    let r = 180 - (Number(n1) + Number(n2) + Number(n3));
     document.getElementById("resultado").innerHTML = r;
 
 }
