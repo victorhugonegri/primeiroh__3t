@@ -40,7 +40,8 @@ function total(){
     let valor = document.getElementById("val").value;
     let mes = document.getElementById("mes").value;
     for(let i = 1; i <=mes; i++){
-        resultado += valor * (1+(juros/100));
+        resultado = valor * (1+(juros/100));
+        valor = resultado;
     }
     document.write("O total é de: " + resultado);
     let juros = document.getElementById("ju").value;
