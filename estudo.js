@@ -61,7 +61,18 @@ function media(){
     let n3 = document.getElementById("n1").value;
     let r = (Number(n1) + Number(n2) + Number(n3)) / 3;
     document.getElementById("resultado").innerHTML = r;
-
+         
+        if(!Number(valor)){
+            alert("0 valor deve ser um número");
+            return  
+    }
+    if(!Number(meses)){
+        alert("0 valor deve ser um número");
+        return  
+}
+if(!Number(juros)){
+    alert("0 valor deve ser um número");
+    return  
 }
 function falta(){
     let n1 = document.getElementById("n1").value;
