@@ -63,21 +63,29 @@ function media(){
     document.getElementById("resultado").innerHTML = r;
          
         if(!Number(valor)){
-            alert("0 valor deve ser um número");
+            alert("0 valor dos juros deve ser um numero");
+
+            document.getElementById("val").value="";
+            document.getElementById("val").focus();
+            
             return  
     }
     if(!Number(meses)){
-        alert("0 valor deve ser um número");
+alert("0 valor dos juros deve ser um numero".);
+            document.getElementById("val").value="";
+            document.getElementById("val").focus();
         return  
 }
 if(!Number(juros)){
-    alert("0 valor deve ser um número");
+    alert("0 valor dos juros deve ser um numero");
+            document.getElementById("val").value="";
+            document.getElementById("val").focus();
     return  
 }
 function falta(){
     let n1 = document.getElementById("n1").value;
-    let n2 = document.getElementById("n1").value;
-    let n3 = document.getElementById("n1").value;
+    let n2 = document.getElementById("n2").value;
+    let n3 = document.getElementById("n3").value;
     let r = 180 - (Number(n1) + Number(n2) + Number(n3));
     document.getElementById("resultado").innerHTML = r;
 
