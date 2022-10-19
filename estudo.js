@@ -63,7 +63,7 @@ function media(){
     document.getElementById("resultado").innerHTML = r;
          
         if(!Number(valor)){
-            alert("0 valor dos juros deve ser um numero");
+            alert("O valor deve ser um numero");
 
             document.getElementById("val").value="";
             document.getElementById("val").focus();
@@ -71,13 +71,13 @@ function media(){
             return  
     }
     if(!Number(meses)){
-alert("0 valor dos juros deve ser um numero".);
+alert("A quantidade de meses deve ser numero animal".);
             document.getElementById("val").value="";
             document.getElementById("val").focus();
         return  
 }
 if(!Number(juros)){
-    alert("0 valor dos juros deve ser um numero");
+    alert("A quantidade de meses deve ser numero animal");
             document.getElementById("val").value="";
             document.getElementById("val").focus();
     return  

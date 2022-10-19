@@ -1,1 +1,11 @@
+.calculadora {
+    padding: 10px;
+    background-color: blue;
+    width: 200px;
+}
 
+#btncALC {
+    width: 50px;
+    padding: 5px;
+    background-color: chartreuse;
+}
