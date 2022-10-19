@@ -71,7 +71,7 @@ function media(){
             return  
     }
     if(!Number(meses)){
-alert("A quantidade de meses deve ser numero animal".);
+alert("A quantidade de meses deve ser numero animal");
             document.getElementById("val").value="";
             document.getElementById("val").focus();
         return  
