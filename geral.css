@@ -3,6 +3,11 @@
     background-color: rgb(40, 150, 46);
     width: 200px;
 }
+.listaMensal {
+    padding: 10px;
+    background-color: rgb(40, 150, 46);
+    width: 200px;
+}
 .calculadora input{
     background-color: blue;
     color: aliceblue;
@@ -12,11 +17,9 @@
 .spResul{
     background-color: black;
     color: cyan;
-    padding:5px;
+    padding:5px; 
     margin: 5px;
     border-radius: 15px;
-
-
 }
 
 #btncALC {
