@@ -1,37 +1,62 @@
 .calculadora {
-    padding: 10px;
-    background-color: rgb(40, 150, 46);
-    width: 200px;
+    padding: 20px;
+    background: lemonchiffon;
+    border-width: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: peru;
+    box-shadow: 5px 2px yellow;
+    font-size: 20px;
+    width: 350px;
+    height: auto;
+}
+#btnCalc {
+    font-size: 22px;
+    width: 80px;
+    padding: 5px;
+    background: tan;
+    margin-top: 15px;
+}
+ .calculadora input {
+    background: tan;
+    color: aliceblue;
+    border-radius: 5px;
+ }
+.spResul {
+    background: tan;
+    color: none;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+ }
+#btnCalc:hover{
+    background: sienna;
+    cursor: pointer;
 }
 .listaMensal {
-    padding: 10px;
-    background-color: rgb(40, 150, 46);
-    width: 200px;
-}
-.calculadora input{
-    background-color: blue;
-    color: aliceblue;
+    margin-top: 10px;
+    padding: 20px;
+    background: lemonchiffon;
+    border-width: 20px;
+    border-style: solid;
     border-radius: 10px;
-    height: 25px;
+    border-color: rgb(120, 205, 63);
+    box-shadow: 5px 2px black;
+    font-size: 20px;
+    width: 350px;
+    height: auto;
 }
-.spResul{
-    background-color: black;
-    color: cyan;
-    padding:5px; 
-    margin: 5px;
-    border-radius: 15px;
-}
-
-#btncALC {
-    width: 50px;
-    padding: 5px;
-    background-color: chartreuse;
-    margin: 15px;
-    border-radius: 10px;
-}
-#btnCalc:hover {
-    background-color: rgb(57, 179, 41);
-    color: rgb(30, 127, 212);
-    cursor: pointer;
-
-}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
