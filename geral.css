@@ -23,14 +23,14 @@
     border-radius: 5px;
  }
 .spResul {
-    background: tan;
+    background: rgb(219, 130, 13);
     color: none;
     padding: 5px;
     margin: 5px;
     border-radius: 10px;
  }
 #btnCalc:hover{
-    background: sienna;
+    background: rgb(15, 196, 15);
     cursor: pointer;
 }
 .listaMensal {
@@ -43,20 +43,6 @@
     border-color: rgb(120, 205, 63);
     box-shadow: 5px 2px black;
     font-size: 20px;
-    width: 350px;
+    width: 200px;
     height: auto;
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
